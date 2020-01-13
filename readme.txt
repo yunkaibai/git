@@ -8,6 +8,8 @@ $git status//check the status of directory
 
 $git diff readme.txt//print the change of readme.txt with linux style
 
+$git log //print the history of change by time
+
 git is a version control tools
 i want to learn git
 git is very useful
