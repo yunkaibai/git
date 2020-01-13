@@ -11,3 +11,8 @@ $git diff readme.txt//print the change of readme.txt with linux style
 $git log //print the history of change by time
 $git reset --hard 9adc//back or forward to the version of directory
 $git reflog //print the command history
+
+$git checkout -- readme.txt//undo the change in working and doesn't add to stage
+$git reset HEAD readme.txt//undo the file in stage to working directory then use the 'checkout' command to undo the change in working 
+
+$git rm //delete file from repository  
