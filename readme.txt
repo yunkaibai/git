@@ -15,4 +15,9 @@ $git reflog //print the command history
 $git checkout -- readme.txt//undo the change in working and doesn't add to stage
 $git reset HEAD readme.txt//undo the file in stage to working directory then use the 'checkout' command to undo the change in working 
 
-$git rm //delete file from repository  
+$git rm //delete file from repository 
+
+$git remote add origin git@server-name:path/repo-name.git //relate to a remote repository
+$git push -u origin master //push all file in master brunch at the first time
+$git push origin master //push new change to remote repository
+ 
