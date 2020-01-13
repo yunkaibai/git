@@ -11,3 +11,4 @@ $git diff readme.txt//print the change of readme.txt with linux style
 git is a version control tools
 i want to learn git
 git is very useful
+1
