@@ -22,4 +22,10 @@ $git push -u origin master //push all file in master brunch at the first time
 $git push origin master //push new change to remote repository
 
 from slave
- 
+
+$git branch //print all branchs
+$git branch <name>//create a branch
+$git checkout <name> or git switch <name> //swich to other branch
+$git checkout -b <name> or git switch -c <name> //create and switch to a branch
+$git merge <name> //merge a branch to the branch using now
+$git branch -d <name> //delete a branch 
