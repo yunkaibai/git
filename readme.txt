@@ -20,4 +20,6 @@ $git rm //delete file from repository
 $git remote add origin git@server-name:path/repo-name.git //relate to a remote repository
 $git push -u origin master //push all file in master brunch at the first time
 $git push origin master //push new change to remote repository
+
+from slave
  
